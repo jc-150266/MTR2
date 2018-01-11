@@ -119,7 +119,7 @@ namespace MuscleTrainingRecords00
         }
 
         /********************アップデートメソッド（日付）*************************************/
-        public static void UpdateF_date(int m_no, int m_weight, int m_leg, int m_set, DateTime m_date)
+        /*public static void UpdateF_date(int m_no, int m_weight, int m_leg, int m_set, DateTime m_date)
         {
             //データベースに接続する
             using (SQLiteConnection db = new SQLiteConnection(App.dbPath))
@@ -144,7 +144,7 @@ namespace MuscleTrainingRecords00
                     System.Diagnostics.Debug.WriteLine(e);
                 }
             }
-        }
+        }*/
 
 
     }
